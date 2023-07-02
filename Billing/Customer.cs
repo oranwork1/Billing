@@ -47,8 +47,7 @@ namespace Billing
         {
             return $"customer name: {_name}\ncustomer balance: {_id}\ncustomer balance: {_balance}";
         }
-        ChannelWriter
-            Console.WriteLine();
+      
     }
 	
 

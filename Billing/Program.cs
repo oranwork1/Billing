@@ -11,6 +11,3 @@ Console.WriteLine(b);
 Console.WriteLine();
 Console.WriteLine(c);
 
-
-Console.WriteLine();
-Console.WriteLine();

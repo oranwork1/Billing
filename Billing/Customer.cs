@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace Billing
@@ -14,7 +15,7 @@ namespace Billing
 		{
 			get { return _name; }
 			set { _name = value; }
-    }
+		}
         private double _balance;
 
         public double Balance
@@ -28,7 +29,7 @@ namespace Billing
         {
             get { return _id; }
        
-}
+        }
 
         private static int _numOfCustomer = 0;
 
@@ -46,7 +47,8 @@ namespace Billing
         {
             return $"customer name: {_name}\ncustomer balance: {_id}\ncustomer balance: {_balance}";
         }
-
+        ChannelWriter
+            Console.WriteLine();
     }
 	
 
